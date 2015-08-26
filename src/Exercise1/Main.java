@@ -1,6 +1,5 @@
 package Exercise1;
 
-
 /**
  * @author Tobias Jacobsen
  */
@@ -13,7 +12,7 @@ public class Main {
         thread2.start();
         Thread3 thread3 = new Thread3();
         thread3.start();
-        
+
         //Put main thread to sleep for 10 seconds
         //When done, set boolean in Thread3 to true
         try {
