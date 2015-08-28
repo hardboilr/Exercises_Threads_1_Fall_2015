@@ -7,7 +7,7 @@ package Exercise1;
  */
 public class Thread3 extends Thread {
 
-    public static volatile boolean isFinished = false;
+    public static boolean isFinished = false;
 
     @Override
     public void run() {

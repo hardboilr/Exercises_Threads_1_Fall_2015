@@ -3,7 +3,7 @@ package Exercise1;
 /**
  * @author Tobias Jacobsen
  */
-public class Main {
+public class RunThis {
 
     public static void main(String[] args) {
         Thread1 thread1 = new Thread1();
@@ -20,7 +20,7 @@ public class Main {
         } catch (InterruptedException ex) {
             System.out.println("Main thread count interrupted");
         }
-        thread3.isFinished = true;
+        Thread3.isFinished = true;
     }
 
 }

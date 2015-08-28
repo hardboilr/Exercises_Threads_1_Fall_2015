@@ -8,14 +8,14 @@ import java.util.Random;
 /**
  * @author Lars Mortensen
  */
-public class BallDemo extends javax.swing.JFrame {
+public class RunThis extends javax.swing.JFrame {
 
   
   List<Ball> balls = new ArrayList();
   /**
    * Creates new form BallDemo
    */
-  public BallDemo() {
+  public RunThis() {
    
     initComponents();
   }
@@ -134,21 +134,22 @@ public class BallDemo extends javax.swing.JFrame {
         }
       }
     } catch (ClassNotFoundException ex) {
-      java.util.logging.Logger.getLogger(BallDemo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+      java.util.logging.Logger.getLogger(RunThis.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
     } catch (InstantiationException ex) {
-      java.util.logging.Logger.getLogger(BallDemo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+      java.util.logging.Logger.getLogger(RunThis.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
     } catch (IllegalAccessException ex) {
-      java.util.logging.Logger.getLogger(BallDemo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+      java.util.logging.Logger.getLogger(RunThis.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
     } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-      java.util.logging.Logger.getLogger(BallDemo.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+      java.util.logging.Logger.getLogger(RunThis.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
     }
+        //</editor-fold>
         //</editor-fold>
 
     /* Create and display the form */
     java.awt.EventQueue.invokeLater(new Runnable() {
       @Override
       public void run() {
-        new BallDemo().setVisible(true);
+        new RunThis().setVisible(true);
       }
     });
   }

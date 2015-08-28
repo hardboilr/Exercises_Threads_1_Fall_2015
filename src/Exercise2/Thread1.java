@@ -3,11 +3,11 @@ package Exercise2;
 /**
  * @author Tobias Jacobsen
  */
-public class Runnable1 implements Runnable {
+public class Thread1 implements Runnable {
 
     private Even even;
 
-    public Runnable1(Even even) {
+    public Thread1(Even even) {
         this.even = even;
     }
 

@@ -12,7 +12,7 @@ public class Thread2 extends Thread {
         for (int i = 1; i <= 5; i++) {
             System.out.println("Thread 2: " + i);
             try {
-                Thread.sleep(2000);
+                Thread.sleep(2000); //milliseconds
             } catch (InterruptedException ex) {
                 System.out.println("Thread 2 interrupted");
             }
