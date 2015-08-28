@@ -6,7 +6,7 @@ The operation "n++" is in fact a three-way process: Read, modify and write. When
 Example: n = 0. t1 and t2 read the value as 0. They both increment the value with 1, so n = 1. Then n = 1 is written, with either thread overwriting the other one.
 Two operations of n++ should have resulted in n = 2, but is n = 1.
 
-This problem is relatively uncommon in the sense that it will not occur in every single instance. 
+This problem, in this particular instance, is relatively uncommon in the sense that it will not occur in every single case of running the program. 
 It is therefore important to either make sure to handle this problem (synchronization) or to test (jUnit) systematically, if possible.
 
 #Exercise 3
